@@ -22,7 +22,7 @@ grails.project.dependency.resolution = {
 
     plugins {
         build(":tomcat:$grailsVersion",
-                ":release:2.0.4") {
+                ":release:2.2.0") {
             export = false
         }
         runtime(":hibernate:$grailsVersion") {
@@ -32,7 +32,7 @@ grails.project.dependency.resolution = {
         test(":spock:0.7") { export = false }
         test(":codenarc:0.17") { export = false }
 
-        compile(":platform-core:1.0.M6") { excludes 'resources' }
+        compile(":platform-core:1.0.RC5") { excludes 'resources' }
 
         compile "grails.crm:crm-core:latest.integration"
         //runtime "grails.crm:crm-security:latest.integration"
