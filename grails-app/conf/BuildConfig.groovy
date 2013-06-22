@@ -15,14 +15,13 @@ grails.project.dependency.resolution = {
         grailsHome()
         mavenRepo "http://labs.technipelago.se/repo/crm-releases-local/"
         grailsCentral()
-        //mavenRepo "http://labs.technipelago.se/repo/plugins-releases-local/"
     }
     dependencies {
     }
 
     plugins {
         build(":tomcat:$grailsVersion",
-                ":release:2.2.0") {
+                ":release:2.2.1") {
             export = false
         }
         runtime(":hibernate:$grailsVersion") {
@@ -35,6 +34,5 @@ grails.project.dependency.resolution = {
         compile(":platform-core:1.0.RC5") { excludes 'resources' }
 
         compile "grails.crm:crm-core:latest.integration"
-        //runtime "grails.crm:crm-security:latest.integration"
     }
 }
