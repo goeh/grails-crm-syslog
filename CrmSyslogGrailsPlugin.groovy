@@ -16,7 +16,7 @@
 
 class CrmSyslogGrailsPlugin {
     def groupId = "grails.crm"
-    def version = "1.2.0"
+    def version = "1.3.0"
     def grailsVersion = "2.0 > *"
     def dependsOn = [:]
     def pluginExcludes = [
@@ -26,7 +26,7 @@ class CrmSyslogGrailsPlugin {
     def author = "Goran Ehrsson"
     def authorEmail = "goran@technipelago.se"
     def description = '''
-Provides logging features for GR8 CRM.
+Provides logging features for GR8 CRM applications.
 '''
     def documentation = "https://github.com/goeh/grails-crm-syslog"
     def license = "APACHE"
