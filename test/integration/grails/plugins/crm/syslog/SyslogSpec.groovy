@@ -5,7 +5,7 @@ import org.grails.plugin.platform.events.EventMessage
 /**
  * Test syslog feature.
  */
-class SyslogSpec extends grails.plugin.spock.IntegrationSpec {
+class SyslogSpec extends grails.test.spock.IntegrationSpec {
 
     def grailsEventsPublisher
 
