@@ -16,7 +16,7 @@
 
 class CrmSyslogGrailsPlugin {
     def groupId = ""
-    def version = "2.4.0-SNAPSHOT"
+    def version = "2.4.0"
     def grailsVersion = "2.0 > *"
     def dependsOn = [:]
     def pluginExcludes = [
